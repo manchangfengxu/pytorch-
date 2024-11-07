@@ -7,7 +7,7 @@ import torchvision
 import torchvision.transforms as transforms
 
 # ---------------1.使用torchvision加载和归一化CIFAR10训练集和测试集--------------
-if __name__ == '__main__':
+if __name__ == '__main__': #请勿在意
     # 组合预处理链
     transforms = transforms.Compose(
         [transforms.ToTensor(),# 转化为Tensor
